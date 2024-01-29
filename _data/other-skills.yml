@@ -1,0 +1,19 @@
+- name: Teamwork
+  percentage: 100
+  color: primary
+
+- name: Communication
+  percentage: 100
+  color: primary  
+
+- name: Involvement
+  percentage: 100
+  color: primary
+
+- name: Stability
+  percentage: 95
+  color: info
+
+- name: Toolset
+  percentage: 95
+  color: info

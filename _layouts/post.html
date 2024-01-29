@@ -17,11 +17,10 @@ layout: page
 
   <br>
 
-  {%- if page.tags != empty -%}
-    Tags: 
+  {%- if page.tags != empty -%} 
     {% for tag in page.tags %}
-    <a class="text-decoration-none no-underline" href="{{ tag | slugify | prepend:'/blog/tags#' | relative_url }}">
-      <span class="tag badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    <a class="text-decoration-none no-underline" >
+      <span class=" badge badge-pill text-primary border border-primary">{{ tag }}</span>
     </a>
     {% endfor %}
   {%- endif -%}
@@ -35,3 +34,7 @@ layout: page
   {% include blog/disqus.html %}
 </div>
 {% endif %}
+
+<p class="text-center">
+  {% include elements/button.html link="/blog" text="Back to Blog" %}
+</p>

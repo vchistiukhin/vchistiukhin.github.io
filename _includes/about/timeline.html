@@ -1,6 +1,7 @@
 <div class="col mt-4">
   <div class="timeline-body bg-themed">
-    {% for item in site.data.timeline %}
+    {% assign timeline_data = site.data[page.timeline] %}
+    {% for item in timeline_data %}
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title }}</h2>

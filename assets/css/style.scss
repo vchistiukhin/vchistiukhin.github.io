@@ -1,3 +1,62 @@
 ---
 ---
 @import "portfolYOU";
+
+#scrollTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* No border */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    border: 1px solid #6c757d;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%; /* This makes the button rounded */
+    font-size: 20px;
+    width: 52.5px; /* Set both width */
+    height: 52.5px; /* and height to the same value */
+    text-align: center; /* Ensure the icon/text is centered */
+    line-height: 20px; /* Vertically center the icon/text */
+  }
+
+  #scrollTopBtn:hover {
+    background-color: #6c757d; /* Add a dark-grey background on hover */
+    color: white; /* White arrow and circle on hover */
+    border: 1px solid white; /* White border on hover */
+    
+  }
+  
+  @media screen and (max-width: 900px) {
+    #scrollTopBtn {
+      right: 10px; /* Closer to the right edge on smaller screens */
+      bottom: 70px; /* Optionally, adjust the bottom position as well */
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    #scrollTopBtn {
+      right: 30px; /* Closer to the right edge on smaller screens */
+      bottom: 70px; /* Optionally, adjust the bottom position as well */
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    #scrollTopBtn {
+      right: 50px; /* Closer to the right edge on smaller screens */
+      bottom: 70px; /* Optionally, adjust the bottom position as well */
+    }
+  }
+  
+  @media screen and (min-width: 1600px) {
+    #scrollTopBtn {
+      right: 240px; /* Closer to the right edge on smaller screens */
+      bottom: 70px; /* Optionally, adjust the bottom position as well */
+    }
+  } 
+
+  .grey-link {
+    color: grey;
+    font-weight: 600;
+}
