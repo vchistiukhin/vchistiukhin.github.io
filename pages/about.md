@@ -31,13 +31,3 @@ Let's stay in touch - connect with me on <a href="https://www.linkedin.com/in/vl
 <p class="text-center">
   {% include elements/button.html link="/projects" text="Projects <i class='fas fa-arrow-right'></i> " %}
 </p>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C42MX10CYP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C42MX10CYP');
-</script>
