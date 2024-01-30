@@ -8,9 +8,9 @@ weight: 1
 timeline: about_timeline
 ---
 
-## **About Me**
+{%include avatar.html%}
 
-<br>Hi there! I am **Vladimir Chistiukhin**,<br> a Software QA Engineer with experience in enhancing quality assurance processes across multiple projects.<br> I like to go through every detail, see the full picture, test the most complicated solutions, and find tricky issues.<br> In the last few years, my primary focus has been on: 
+<br>Hi there! I am **Vladimir Chistiukhin**,<br> a Software QA Engineer with experience in enhancing quality assurance processes across multiple projects.<br> I like to go through every detail, see the full picture, test the most complicated solutions, and find tricky issues.<br><br> In the last few years, my primary focus has been on: 
  - creating comprehensive documentation that covers various scenarios.
  - engaging in the entire development process from planning to release.  
  - all-round testing for backend; iOS, android, and web applications.
@@ -31,3 +31,13 @@ Let's stay in touch - connect with me on <a href="https://www.linkedin.com/in/vl
 <p class="text-center">
   {% include elements/button.html link="/projects" text="Projects <i class='fas fa-arrow-right'></i> " %}
 </p>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C42MX10CYP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C42MX10CYP');
+</script>
