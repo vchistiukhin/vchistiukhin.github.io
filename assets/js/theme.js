@@ -1,6 +1,6 @@
 const STORAGE_KEY = "theme";
 const THEME_ATTR  = "data-theme";
-const QUERY_KEY   = "(prefers-color-scheme: light)";
+const QUERY_KEY   = "(prefers-color-scheme: dark)";
 
 const themes = {
   LIGHT: "light",
@@ -14,9 +14,20 @@ function initTheme() {
 
   if (savedTheme) {
     // Storage theme
+    setTheme(savedTheme);
+  } else if (window.matchMedia && window.matchMedia(QUERY_KEY).matches) {
+    // system theme
     setTheme(themes.LIGHT);
-  } 
+  } else {
+    // Default theme
+    setTheme(themes.LIGHT);
+  }
 
+  // Watch for system theme changes
+  window.matchMedia(QUERY_KEY).addEventListener("change", (e) => {
+    const newTheme = e.matches ? themes.LIGHT : themes.LIGHT;
+    setTheme(newTheme);
+  });
 }
 
 function getTheme() {
