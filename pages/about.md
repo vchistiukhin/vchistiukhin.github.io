@@ -4,6 +4,7 @@ title: About
 permalink: /about
 redirect_from:
   - /
+  - /ab
 weight: 1
 timeline: about_timeline
 ---
