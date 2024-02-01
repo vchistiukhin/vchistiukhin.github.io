@@ -1,6 +1,6 @@
 ---
 name: GroupDoLists
-tools: [Web, Android, Backend, UI/UX, Requirements, Testing, Fintech, Twilio]
+tools: [Web, iOS, Android, Backend, UI/UX, Requirements, Testing, Twilio]
 image: /assets/img/gdl.png
 description: Groupdolists is an incident response platform designed to help organizations respond to crises. The platform provides a centralized, real-time environment for teams to manage and coordinate their response to any incident, ensuring that all necessary actions are taken promptly and efficiently.
 timeline: gdl_timeline
