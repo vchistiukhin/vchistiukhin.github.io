@@ -10,7 +10,7 @@
   percentage: 100
   color: primary
 
-- name: Stability
+- name: Adaptivity
   percentage: 95
   color: info
 

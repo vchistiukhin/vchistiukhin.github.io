@@ -15,7 +15,11 @@
   color: info
 
 - name: Mobile Testing
-  percentage: 90
+  percentage: 95
+  color: info
+
+- name: Performance Testing
+  percentage: 70
   color: secondary
 
 - name: Automation Testing
