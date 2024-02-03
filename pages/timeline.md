@@ -11,7 +11,7 @@ weight: 3
 
 <div class="buttons-container text-center">
   {% include elements/button.html link="/projects" text="<i class='fas fa-arrow-left'></i> Projects" %}
-    {% include elements/button.html link="/about" text="About Me <i class='fas fa-home'></i>" %}
+    {% include elements/button.html link="/cv" text="My CV <i class='fas fa-arrow-right'></i>" %}
 </div>
 
 <!-- Google tag (gtag.js) -->

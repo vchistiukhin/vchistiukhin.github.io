@@ -482,3 +482,5 @@ body { font-family: "Poppins", sans-serif; }
 @media screen and (min-width: 1400px) { #scrollTopBtn { right: 50px; /* Closer to the right edge on smaller screens */ bottom: 70px; /* Optionally, adjust the bottom position as well */ } }
 @media screen and (min-width: 1600px) { #scrollTopBtn { right: 240px; /* Closer to the right edge on smaller screens */ bottom: 70px; /* Optionally, adjust the bottom position as well */ } }
 .grey-link { color: grey; font-weight: 600; }
+
+.pdf-container { padding-top: 56px; padding-bottom: 16px; }

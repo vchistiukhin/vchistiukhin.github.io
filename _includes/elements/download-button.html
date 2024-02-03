@@ -1,0 +1,20 @@
+{% if include.block %}
+  {%- assign block_style = "btn-block" -%}
+{%- else -%}
+  {%- assign block_style = "" -%}
+{%- endif -%}
+
+{% if include.download %}
+<button onclick="downloadFile('{{ include.download }}')" class="m-1 btn btn-{{ include.style | default: 'outline-danger' }} btn-{{ include.size | default: 'md' }} {{ block_style }}">{{ include.text | safe }}</button>
+  <script>
+    function downloadFile(url) {
+      // Create a new link element
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = url.split('/').pop(); // Optional: Specify a filename
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+  </script>
+{% endif %}
