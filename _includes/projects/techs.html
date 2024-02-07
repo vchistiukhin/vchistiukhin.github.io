@@ -1,0 +1,5 @@
+{% if page.techs %}
+  {% for tech in page.techs %}
+    <span class="badge badge-pill text-secondary border border-secondary ml-1">{{ tech }}</span>
+  {% endfor %}
+{% endif %}
