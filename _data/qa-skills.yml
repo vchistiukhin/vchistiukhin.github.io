@@ -1,8 +1,8 @@
-- name: Documentation
+- name: Product & Testing Documentation
   percentage: 100
   color: primary
 
-- name: QA Processes
+- name: Quality Assurance Processes
   percentage: 100
   color: primary
 

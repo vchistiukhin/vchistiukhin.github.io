@@ -484,3 +484,5 @@ body { font-family: "Poppins", sans-serif; }
 .grey-link { color: grey; font-weight: 600; }
 
 .pdf-container { padding-top: 56px; padding-bottom: 16px; }
+
+.btn { border-radius: 20px !important; /* Example for more rounded corners */ }

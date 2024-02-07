@@ -6,14 +6,22 @@
   percentage: 100
   color: primary  
 
-- name: Involvement
+- name: Problem-Solving
   percentage: 100
   color: primary
 
-- name: Adaptivity
+- name: Time Management
+  percentage: 100
+  color: info  
+
+- name: Risk Management
   percentage: 95
   color: info
 
-- name: Toolset
+- name: Customer-Centric Mindset
   percentage: 95
+  color: info
+
+- name: Adaptability
+  percentage: 90
   color: info
