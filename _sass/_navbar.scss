@@ -28,8 +28,10 @@
 }
 
 .navbar-brand {
-  margin-bottom: -14px;
+  margin-bottom: 0px;
   &::after {
     margin-top: -0.25em;
   }
+  color: #6c757d !important;
+  font-size: medium;
 }

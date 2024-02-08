@@ -10,3 +10,9 @@
   border: 1px solid #333; /* Optional: adds a border, remove or adjust as needed */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds a shadow, adjust as needed */
 }
+
+.signature {
+  font-size: small; /* Makes the font size smaller */
+  font-style: italic !important; /* Makes the text italic */
+  text-align: center; /* Optional: centers the signature under the avatar if desired */
+}

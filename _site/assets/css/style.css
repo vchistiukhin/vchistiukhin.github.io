@@ -130,7 +130,7 @@ body { font-family: "Poppins", sans-serif; }
 .nav-item.active { font-weight: bold; }
 .nav-item.active::after { width: 100% !important; }
 
-.navbar-brand { margin-bottom: -14px; }
+.navbar-brand { margin-bottom: 0px; color: #6c757d !important; font-size: medium; }
 .navbar-brand::after { margin-top: -0.25em; }
 
 .markdown-body h1, .markdown-body h2 { margin-top: 32px; }
@@ -156,6 +156,12 @@ body { font-family: "Poppins", sans-serif; }
 .project.card .card-img-top { border-radius: 15px 15px 0 0; }
 .project.card:hover:not(.post) { transform: translateY(-8px); box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24); }
 
+.projects-container { display: flex; flex-wrap: wrap; gap: 20px; /* Adjust the gap between cards as needed */ }
+
+.project-card { flex: 1 1 calc(50% - 20px); /* Adjust based on gap to ensure two cards per row */ /* Add other styling for your cards here (padding, border, etc.) */ }
+
+/* Responsive adjustment for screens wider than 768px */
+@media (min-width: 768px) { .project-card { /* Adjust so that only two items fit within the container's width */ flex: 1 1 calc(50% - 20px); /* Example for two cards, adjust gap as necessary */ } }
 .timeline-body { position: relative; border-radius: 0 15px 15px 0; padding: 5px 0; margin: 16px 0; }
 .timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #007bff; position: absolute; left: -4px; top: 0; }
 .timeline-body .timeline-item { position: relative; }
@@ -473,6 +479,8 @@ body { font-family: "Poppins", sans-serif; }
 
 .avatar { width: 200px; /* Set the width as needed */ height: 200px; /* Set the height to the same as width for a circle */ border-radius: 50%; /* This creates the circular shape */ border: 1px solid #333; /* Optional: adds a border, remove or adjust as needed */ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow, adjust as needed */ }
 
+.signature { font-size: small; /* Makes the font size smaller */ font-style: italic !important; /* Makes the text italic */ text-align: center; /* Optional: centers the signature under the avatar if desired */ }
+
 #scrollTopBtn { display: none; /* Hidden by default */ position: fixed; /* Fixed position */ z-index: 99; /* Make sure it does not overlap */ border: none; /* No border */ outline: none; /* Remove outline */ background-color: white; /* Set a background color */ border: 1px solid #6c757d; color: #6c757d; cursor: pointer; padding: 15px; border-radius: 50%; /* This makes the button rounded */ font-size: 20px; width: 52.5px; /* Set both width */ height: 52.5px; /* and height to the same value */ text-align: center; /* Ensure the icon/text is centered */ line-height: 20px; /* Vertically center the icon/text */ }
 
 #scrollTopBtn:hover { background-color: #6c757d; /* Add a dark-grey background on hover */ color: white; /* White arrow and circle on hover */ border: 1px solid white; /* White border on hover */ }
@@ -486,3 +494,8 @@ body { font-family: "Poppins", sans-serif; }
 .pdf-container { padding-top: 56px; padding-bottom: 16px; }
 
 .btn { border-radius: 20px !important; /* Example for more rounded corners */ }
+
+.card-columns { column-count: 3; }
+
+@media screen and (max-width: 1000px) { .card-columns { column-count: 2; } }
+@media screen and (max-width: 768px) { .card-columns { column-count: 1; } }
