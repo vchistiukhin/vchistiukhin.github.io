@@ -7,8 +7,8 @@
   color: primary
 
 - name: Backend Testing
-  percentage: 95
-  color: info 
+  percentage: 100
+  color: primary 
 
 - name: Web Testing
   percentage: 95
@@ -17,13 +17,3 @@
 - name: Mobile Testing
   percentage: 95
   color: info
-
-- name: Performance Testing
-  percentage: 70
-  color: secondary
-
-- name: Automation Testing
-  percentage: 50
-  color: warning
-
-  

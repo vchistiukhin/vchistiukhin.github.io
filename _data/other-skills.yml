@@ -2,17 +2,9 @@
   percentage: 100
   color: primary
 
-- name: Communication
-  percentage: 100
-  color: primary  
-
-- name: Problem-Solving
-  percentage: 100
-  color: primary
-
 - name: Time Management
   percentage: 100
-  color: info  
+  color: primary
 
 - name: Risk Management
   percentage: 95
