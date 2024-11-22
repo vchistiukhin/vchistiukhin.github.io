@@ -1,26 +1,26 @@
 - title: Joining GroupDoLists
   from: May 2019
-  to: Sept 2019
+  to: Sept. 2019
   description: I joined the GroupDoLists project to strengthen the quality assurance team. The project was struggling due to a lack of testing and product documentation, frequent changes in the product concept at late stages, and an unclear development roadmap.<br><br>
                Initially, I focused on enhancing the existing testing documentation, expanding coverage, and improving test plans. I revised ~200 existing test cases, transforming them into 700+ well-decomposed ones that covered all existing functionality. I also prepared properly composed test plans for each supported platform.<br><br>
                These well-decomposed test cases and properly organized test plans helped us reduce the median regression time by approximately 20%, while significantly extending the test coverage with a variety of newly developed test scenarios. This all helped us to identify existing errors, eliminate ones, and prepare for the future changes.
 
 - title: Focusing on Product Documentation
-  from: Sept 2019
-  to: Mar 2020
+  from: Sept. 2019
+  to: Mar. 2020
   description: After addressing the existing problems with testing documentation, we decided to also improve the product documentation. By changing our approach, involving quality assurance engineers in the process of writing and discussing specifications, and establishing a more tight and reliable collaboration between the team and product owners, we managed to enhance the quality of the features in development. <br><br> 
                This led to a reduced workload for the engineering team, as almost all potential use cases were identified before development began. Consequently, there were only a small number of defects to identify and fix after development was completed. As a result, we performed better and consistently met deadlines.
 
 - title: Performance Refactoring
-  from: Mar 2020
-  to: Nov 2020
+  from: Mar. 2020
+  to: Nov. 2020
   description: From March 2020, as the pandemic spread, we experienced rapid user growth, as the project was designed to assist in such crises. However, it wasn’t initially designed to operate under such high load for many months. Luckily, we had resolved the crucial issues a bit earlier.<br><br>
                As the quality assurance processes were well-established, I, along with several backend and DevOps engineers, shifted focus to performance testing. Within several months, we conducted performance tests for the backend, web, and mobile clients. We identified our bottlenecks and optimized the clients, changing their data consumption from 'greedy' to 'needy'.<br><br>
                These changes, along with backend fine-tuning, helped us drastically reduce the server load. The loading time after logging in was reduced to approximately 8 seconds from 25 seconds previously.
 
 - title: Improving Synchronization
-  from: Nov 2020
-  to: Dec 2021
+  from: Nov. 2020
+  to: Dec. 2021
   description: At the end of 2020, we encountered an issue with our real-time synchronization method using WebSockets. Although this technology generally performed well, it wasn’t sufficient for our needs. The main problem was that a lost connection meant users would not receive updates. While this might be acceptable in some cases, our commitment was for 100% reliability, ensuring every single update was delivered to the user. <br><br>
                We implemented and tested several solutions related to the WebSocket protocol and set up server-client-server heartbeat messages to quickly restore the connection if it was interrupted. We achieved some success with this approach, but we decided to go further. <br><br>
                In addition to WebSockets, we implemented a 'silent push' solution for scenarios where the WebSocket connection was completely lost. Each WebSocket message was accompanied by an invisible push notification. If the client received this push without having processed a corresponding WebSocket message, it would fetch the data via API.<br><br>
