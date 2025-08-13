@@ -90,7 +90,9 @@
 @keyframes four-anim { 50% { transform: scale(0.98); } }
 html { padding-left: calc(100vw - 100%); }
 
-body { font-family: "Poppins", sans-serif; }
+body { font-family: "Poppins", sans-serif; background-color: #f7f9fc; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23cfd6e6' stroke-width='1' opacity='0.3'%3E%3Cpath d='M12 8l3 3 6-6'/%3E%3Ccircle cx='44' cy='24' r='4'/%3E%3Crect x='16' y='36' width='10' height='12' rx='1.5'/%3E%3Cpath d='M48 48l2 2 4-4'/%3E%3Ccircle cx='20' cy='52' r='3'/%3E%3Crect x='40' y='8' width='8' height='10' rx='1'/%3E%3C/g%3E%3C/svg%3E"); background-repeat: repeat; background-size: 64px 64px; }
+
+.card { border-radius: 20px !important; border: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
 
 .badge { font-weight: 500; }
 
