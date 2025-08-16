@@ -1,5 +1,5 @@
 - name: Teamwork
-  percentage: 100
+  percentage: 90
   color: primary
 
 - name: Time Management
@@ -10,10 +10,10 @@
   percentage: 95
   color: info
 
-- name: Customer-Centric Mindset
-  percentage: 95
+- name: Product-Centric Mindset
+  percentage: 100
   color: info
 
 - name: Adaptability
-  percentage: 90
+  percentage: 100
   color: info

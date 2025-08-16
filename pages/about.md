@@ -22,11 +22,6 @@ Take a look at the <a href="/projects" class="grey-link">Projects</a> I have bee
 Let's stay in touch - connect with me on <a href="https://www.linkedin.com/in/vladimir-chistiukhin" class="grey-link">LinkedIn</a> or send me an <a href="mailto:vchistiukhin@gmail.com" class="grey-link">Email</a>.
 
 <div class="row">
-{% include about/skills.html title="QA Skills" source=site.data.qa-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-
-<div class="row">
 {% include about/timeline.html %}
 </div>
 

@@ -7,7 +7,7 @@
 - title: Developing 1st Stage
   from: Apr. 2022
   to: Dec. 2022
-  description: During the first development stage, we encountered a lot of interesting tasks. Some of them were completely new experiences for our team, such as implementing navigation using Google/Apple Maps and integrating Stripe as a payment provider. Drawing on our previous experience, we implemented advanced real-time synchronization using 'silent pushes,' which provided seamless synchronization whith no extra load on the server side. My role involved continuing to develop product and testing documentation; evaluating the quality of the project; testing backend, multiple web applications and iOS client.<br><br>
+  description: During the first development stage, we encountered a lot of interesting tasks. Some of them were completely new experiences for our team, such as implementing navigation using Google/Apple Maps and integrating Stripe as a payment provider. Drawing on our previous experience, we implemented advanced real-time synchronization using 'silent pushes,' which provided seamless synchronization with no extra load on the server side. My role involved continuing to develop product and testing documentation; evaluating the quality of the project; testing backend, multiple web applications and iOS client.<br><br>
                Since we had comprehensive product and testing documentation, the number of issues was quite low, enabling us to implement many advanced features at this stage. We were on the same page with the L-Charge product team, and we were all driven by the desire to create a cool-looking, modern and functional product.
 
 - title: Developing 2nd Stage
@@ -21,8 +21,10 @@
   description: |-
                Through close collaboration with the L-Charge product and development teams, we managed to build modern, reliable, and advanced applications and services. Our team of amazing engineers, designers, and product managers did everything as expected, planned, designed, discussed, and approved. Working on this project was the best experience I've ever had.<br><br>
                What I’ve learned at L-Charge:<br>
-               - Designing proper documentation helps to avoid many issues from the very beginning. <br>
-               - Collaborating with product owners contributes to the project's quality in the long run.<br>
-               - Excitement about a properly designed product drives and motivates the whole team.<br>               
-               - Developing a properly initiated project is much more easier and cheaper in terms of costs.<br>               
-               - Having experienced and involved colleagues is the best thing that could happen to you.
+                <ul>
+                  <li>Designing proper documentation helps to avoid many issues from the very beginning.</li>
+                  <li>Collaborating with product owners contributes to the project's quality in the long run.</li>
+                  <li>Excitement about a properly designed product drives and motivates the whole team.</li>
+                  <li>Developing a properly initiated project is much more easier and cheaper in terms of costs.</li>
+                  <li>Having experienced and involved colleagues is the best thing that could happen to you.</li>
+                </ul>   

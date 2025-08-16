@@ -100,6 +100,23 @@ body { font-family: "Poppins", sans-serif; background-color: #f7f9fc; background
 
 .bg-dark, .bg-dark *, .badge-dark, .badge-dark * { color: rgba(255, 255, 255, 0.9) !important; }
 
+/* Skills Badges and Progress Bars */
+.skills-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+
+.skill-category { background: rgba(255, 255, 255, 0.05); border-radius: 12px; padding: 10px; border: 1px solid rgba(255, 255, 255, 0.1); }
+
+.skill-category h4 { color: #0077b5; margin-bottom: 1rem; font-size: 1.1rem; font-weight: 600; }
+
+.skill-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+
+.skill-badge { display: inline-block; padding: 0.25rem 0.75rem; border: 1px solid #E2E8F0; border-radius: 9999px; font-size: 0.85rem; background: rgba(255, 255, 255, 0.8); color: #333; font-weight: 500; transition: all 0.3s ease; }
+
+.skill-badge:hover { background: #0077b5; color: white; border-color: #0077b5; transform: translateY(-1px); }
+
+.skill-bar { height: 8px; background: #E9EDF5; border-radius: 9999px; overflow: hidden; margin-top: 0.5rem; }
+
+.skill-bar > span { display: block; height: 100%; background: linear-gradient(90deg, #6AA7FF, #74E4C9); border-radius: 9999px; transition: width 1s ease; }
+
 .search-box { box-shadow: none !important; }
 
 .post.card { border-radius: 15px; text-decoration: none !important; padding: 15px; height: 100%; }
@@ -141,8 +158,8 @@ body { font-family: "Poppins", sans-serif; background-color: #f7f9fc; background
 .markdown-body .video { position: relative; padding-bottom: 56.25%; margin-bottom: 1rem; width: 100%; }
 .markdown-body .video iframe { position: absolute; height: 100%; width: 100%; }
 .markdown-body a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) { display: inline-block; text-decoration: none; }
-.markdown-body a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover { color: #007bff; }
-.markdown-body a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline)::after { content: ""; display: block; height: 0.15em; margin-top: -0.15em; width: 0; background: #007bff; transition: width 0.35s; }
+.markdown-body a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover { color: #0077b5; }
+.markdown-body a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline)::after { content: ""; display: block; height: 0.15em; margin-top: -0.15em; width: 0; background: #0077b5; transition: width 0.35s; }
 .markdown-body a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):hover::after { width: 100%; }
 .markdown-body pre { background: #f8f9fa; border: 1px solid #ddd; color: #343a40; font-family: monospace; font-size: 14px; line-height: 20px; margin-bottom: 1.6em; max-width: 100%; padding: 1em 1.5em; display: block; page-break-inside: avoid; overflow: auto; word-wrap: break-word; }
 .markdown-body code.highlighter-rouge { background-color: #f8f9fa; color: #343a40; border-radius: 3px; margin: 0; padding: 0.2em 0.65em; }
@@ -165,9 +182,9 @@ body { font-family: "Poppins", sans-serif; background-color: #f7f9fc; background
 /* Responsive adjustment for screens wider than 768px */
 @media (min-width: 768px) { .project-card { /* Adjust so that only two items fit within the container's width */ flex: 1 1 calc(50% - 20px); /* Example for two cards, adjust gap as necessary */ } }
 .timeline-body { position: relative; border-radius: 0 15px 15px 0; padding: 5px 0; margin: 16px 0; }
-.timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #007bff; position: absolute; left: -4px; top: 0; }
+.timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #0077b5; position: absolute; left: -4px; top: 0; }
 .timeline-body .timeline-item { position: relative; }
-.timeline-body .timeline-item:after { content: ""; width: 20px; height: 20px; border-radius: 50%; border: 4px solid #007bff; background-color: #f8f9fa; position: absolute; left: -12px; top: 8px; z-index: 10; }
+.timeline-body .timeline-item:after { content: ""; width: 20px; height: 20px; border-radius: 50%; border: 4px solid #0077b5; background-color: #f8f9fa; position: absolute; left: -12px; top: 8px; z-index: 10; }
 .timeline-body .timeline-item .content { margin: 40px; padding-bottom: 20px; border-bottom: 1px dashed #343a40; }
 .timeline-body .timeline-item .content .date { margin-top: -5px; margin-bottom: 15px; color: #6c757d; }
 
@@ -380,8 +397,7 @@ body { font-family: "Poppins", sans-serif; background-color: #f7f9fc; background
 [data-theme="light"] .scrollTopBtn { color: rgba(52, 58, 64, 0.5); }
 [data-theme="dark"] .scrollTopBtn { color: rgba(255, 255, 255, 0.5); }
 
-[data-theme="light"] .scrollTopBtn:hover { color: #343a40; }
-[data-theme="dark"] .scrollTopBtn:hover { color: rgba(255, 255, 255, 0.9); }
+.scrollTopBtn:hover { color: #0077b5 !important; }
 
 [data-theme="dark"] { /* Comment */ /* Error */ /* Escape */ /* Generic */ /* Keyword */ /* Literal */ /* Name */ /* Operator */ /* Other */ /* Punctuation */ /* Comment.Hashbang */ /* Comment.Multiline */ /* Comment.Preproc */ /* Comment.PreprocFile */ /* Comment.Single */ /* Comment.Special */ /* Generic.Deleted */ /* Generic.Emph */ /* Generic.Error */ /* Generic.Heading */ /* Generic.Inserted */ /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */ /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */ /* Keyword.Type */ /* Literal.Date */ /* Literal.Number */ /* Literal.String */ /* Name.Attribute */ /* Name.Builtin */ /* Name.Class */ /* Name.Constant */ /* Name.Decorator */ /* Name.Entity */ /* Name.Exception */ /* Name.Function */ /* Name.Label */ /* Name.Namespace */ /* Name.Other */ /* Name.Property */ /* Name.Tag */ /* Name.Variable */ /* Operator.Word */ /* Text.Whitespace */ /* Literal.Number.Bin */ /* Literal.Number.Float */ /* Literal.Number.Hex */ /* Literal.Number.Integer */ /* Literal.Number.Oct */ /* Literal.String.Affix */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Delimiter */ /* Literal.String.Doc */ /* Literal.String.Double */ /* Literal.String.Escape */ /* Literal.String.Heredoc */ /* Literal.String.Interpol */ /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */ /* Name.Builtin.Pseudo */ /* Name.Function.Magic */ /* Name.Variable.Class */ /* Name.Variable.Global */ /* Name.Variable.Instance */ /* Name.Variable.Magic */ /* Literal.Number.Integer.Long */ }
 [data-theme="dark"] body { background-color: #17191a; color: rgba(255, 255, 255, 0.9); }
@@ -485,7 +501,7 @@ body { font-family: "Poppins", sans-serif; background-color: #f7f9fc; background
 
 #scrollTopBtn { display: none; /* Hidden by default */ position: fixed; /* Fixed position */ z-index: 99; /* Make sure it does not overlap */ border: none; /* No border */ outline: none; /* Remove outline */ background-color: white; /* Set a background color */ border: 1px solid #6c757d; color: #6c757d; cursor: pointer; padding: 15px; border-radius: 50%; /* This makes the button rounded */ font-size: 20px; width: 52.5px; /* Set both width */ height: 52.5px; /* and height to the same value */ text-align: center; /* Ensure the icon/text is centered */ line-height: 20px; /* Vertically center the icon/text */ }
 
-#scrollTopBtn:hover { background-color: #6c757d; /* Add a dark-grey background on hover */ color: white; /* White arrow and circle on hover */ border: 1px solid white; /* White border on hover */ }
+#scrollTopBtn:hover { background-color: #0077b5; /* LinkedIn blue background on hover */ color: white; /* White arrow and circle on hover */ border: 1px solid #0077b5; /* LinkedIn blue border on hover */ }
 
 @media screen and (max-width: 900px) { #scrollTopBtn { right: 10px; /* Closer to the right edge on smaller screens */ bottom: 70px; /* Optionally, adjust the bottom position as well */ } }
 @media screen and (min-width: 900px) { #scrollTopBtn { right: 30px; /* Closer to the right edge on smaller screens */ bottom: 70px; /* Optionally, adjust the bottom position as well */ } }
@@ -501,3 +517,4 @@ body { font-family: "Poppins", sans-serif; background-color: #f7f9fc; background
 
 @media screen and (max-width: 1000px) { .card-columns { column-count: 2; } }
 @media screen and (max-width: 768px) { .card-columns { column-count: 1; } }
+.btn-outline-secondary:hover { background-color: #0077b5; border-color: #0077b5; color: #fff; }

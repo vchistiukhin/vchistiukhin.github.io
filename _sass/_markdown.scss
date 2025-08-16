@@ -32,7 +32,7 @@
     text-decoration: none;
 
     &:hover {
-      color: $primary;
+      color: #0077b5;
     }
 
     &::after {
@@ -41,7 +41,7 @@
       height: 0.15em;
       margin-top: -0.15em;
       width: 0;
-      background: $primary;
+      background: #0077b5;
       transition: width 0.35s;
     }
 

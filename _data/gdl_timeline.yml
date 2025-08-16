@@ -8,7 +8,7 @@
 - title: Focusing on Product Documentation
   from: Sept. 2019
   to: Mar. 2020
-  description: After addressing the existing problems with testing documentation, we decided to also improve the product documentation. By changing our approach, involving quality assurance engineers in the process of writing and discussing specifications, and establishing a more tight and reliable collaboration between the team and product owners, we managed to enhance the quality of the features in development. <br><br> 
+  description: After addressing the existing problems with testing documentation, we decided to also improve the product documentation. By changing our approach, involving quality assurance engineers in the process of writing and discussing specifications, and establishing a tighter and reliable collaboration between the team and product owners, we managed to enhance the quality of the features in development. <br><br> 
                This led to a reduced workload for the engineering team, as almost all potential use cases were identified before development began. Consequently, there were only a small number of defects to identify and fix after development was completed. As a result, we performed better and consistently met deadlines.
 
 - title: Performance Refactoring
@@ -30,8 +30,10 @@
   description: |-
                In late December 2021, it was announced that GroupDoLists would become a part of Infinite Blue's intelligent enterprise resilience solutions. In less than three years, we managed to significantly improve the project's processes, refactor backend and all clients, establish reliable synchronization, and raise the quality level as high as possible. We completed our work on this project and started planning for the next one, <a href="/projects/l-charge" class="grey-link">L-Charge</a>.<br><br>
                What I’ve learned at GroupDoLists:<br>
-               - Focusing on current issues helps to move forward, it's hard to go ahead with a huge backlog.<br>
-               - Mentoring QA engineers in learning proper processes and tools is a valuable contribution.<br>
-               - Choosing inexperienced QA engineers to set up processes can be harmful in terms of quality.<br>               
-               - Reworking a project with a changed concept can be tougher than starting a new one.<br>               
-               - A working solution is good, but there is always room for improvement.
+                <ul>
+                  <li>Focusing on current issues helps to move forward, it's hard to go ahead with a huge backlog.</li>
+                  <li>Mentoring QA engineers in learning proper processes and tools is a valuable contribution.</li>
+                  <li>Choosing inexperienced QA engineers to set up processes can be harmful in terms of quality.</li>
+                  <li>Reworking a project with a changed concept can be tougher than starting a new one.</li>
+                  <li>A working solution is good, but there is always room for improvement.</li>
+                </ul>
