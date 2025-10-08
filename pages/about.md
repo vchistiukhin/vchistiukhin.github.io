@@ -19,7 +19,7 @@ timeline: about_timeline
  - adopting the best practices to improve testing strategies.
 
 Take a look at the <a href="/projects" class="grey-link">Projects</a> I have been involved in, or at my <a href="/timeline" class="grey-link">Timeline</a>.<br>
-Let's stay in touch - connect with me on <a href="https://www.linkedin.com/in/vladimir-chistiukhin" class="grey-link">LinkedIn</a> or send me an <a href="mailto:vchistiukhin@gmail.com" class="grey-link">Email</a>.
+Let's stay in touch - connect with me on <a href="https://www.linkedin.com/in/vladimir-chistiukhin" class="grey-link">LinkedIn</a> or send me an <a href="mailto:vc@yfqa.me" class="grey-link">Email</a>.
 
 <div class="row">
 {% include about/timeline.html %}
