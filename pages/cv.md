@@ -7,9 +7,7 @@ weight: 4
 
 # Vladimir Chistiukhin  
 <h4>Senior QA Engineer (Web, Mobile, Backend) · 10+ years experience</h4>
-Specialties: test strategy, process building, regression management, QA leadership, AI/LLM tooling for QA<br>
-Languages: English - C1 · Serbo-Croatian - C1 · Spanish - A2 · Russian - native<br>
-Residence: Spain
+Specialties: test strategy, process building, QA leadership, AI/LLM tooling for QA<br>
 
 [Email](mailto:vc@yfqa.me) • [LinkedIn](https://www.linkedin.com/in/vladimir-chistiukhin/)  
 
@@ -21,8 +19,9 @@ Residence: Spain
     <hr>
     <p>I’m a Senior QA Engineer with 10+ years of experience improving product quality across web, mobile and backend platforms. I work end-to-end - from refining requirements and designing test strategy to coordinating regressions and signing off releases.</p>
     
-    <p>Over my career I’ve delivered QA for consumer apps (1M+ MAU) and complex B2B SaaS platforms, ensuring predictable, low-risk releases. I focus on preventing issues early, aligning testing with business goals, and giving teams the clarity and confidence they need to ship.</p>
+    <p>Over my career I’ve delivered QA for consumer apps (1.2M+ MAU) and complex B2B SaaS platforms, ensuring predictable, low-risk releases. I focus on preventing issues early, aligning testing with business goals, and giving teams the clarity and confidence they need to ship.</p>
     <p>I’m comfortable building QA processes from scratch, mentoring engineers, and integrating AI/LLM-based tools to speed up analysis, documentation and test design. I thrive in environments where quality matters, requirements evolve, and a reliable product is key to success.</p>
+    <p>Based in Oviedo, Spain (remote global). Fluent in English, Serbo-Croatian, Russian. Intermediate in Spanish.</p>
   </div>
 </div>
 
@@ -38,7 +37,7 @@ Residence: Spain
     <p><strong>Achievements:</strong></p>
     <ul>
       <li><strong>Ensured quality for a product with 1.2M+ monthly active users</strong><br>
-          Mitigated risks associated with high traffic and potential high-impact issues.
+          Mitigated risks associated with high traffic, and kept high-severity production issues at zero for 6+ months.
       </li><br>
 
       <li><strong>Bridged communication between technical and business teams</strong><br>
@@ -49,8 +48,8 @@ Residence: Spain
           Provided QA expertise during refinement, development, testing, and release.
       </li><br>
 
-      <li><strong>Coordinated team efforts from grooming to release</strong><br>
-          Proposed balanced solutions that met business goals while considering real team capacity.
+      <li><strong>Developed and introduced a clear testing approach for a team of 10+ QA engineers</strong><br>
+          Improved how the team planned and executed testing, which helped cut unnecessary rework and reduced QA effort overall.
       </li>
     </ul>
     
@@ -60,45 +59,55 @@ Residence: Spain
     
     <p><strong>Achievements:</strong></p>
     <ul>
-      <li><strong>Built QA processes from the ground up</strong><br>
-          Established testing workflows that reduced development and support costs for clients.
+      <li><strong>Built QA processes from scratch</strong><br>
+          Set up testing workflows that helped clients cut support overhead and made delivery more predictable.
       </li><br>
 
-      <li><strong>Implemented company-wide QA best practices</strong><br>
-          Standardized approaches that improved team efficiency and product quality.
+      <li><strong>Introduced company-wide QA practices</strong><br>
+          Unified the way teams approached testing, improving consistency and overall product quality.
       </li><br>
 
-      <li><strong>Created comprehensive test documentation</strong><br>
-          Enabled predictable and transparent QA activities through structured plans and suites.
+      <li><strong>Created clear, structured test documentation</strong><br>
+          Made testing easier to plan and execute thanks to well-organized plans, suites, and checklists.
       </li><br>
 
-      <li><strong>Produced detailed product documentation</strong><br>
-          Clarified requirements early, reducing ambiguity and preventing rework.
+      <li><strong>Documented product requirements in detail</strong><br>
+          Reduced ambiguity early in the process and helped teams avoid unnecessary rework.
       </li><br>
 
-      <li><strong>Provided UI/UX improvement suggestions</strong><br>
-          Contributed to more intuitive, user-friendly product experiences.
+      <li><strong>Suggested UI/UX improvements</strong><br>
+          Helped deliver products that were easier to understand and smoother to use.
       </li><br>
 
-      <li><strong>Coordinated cross-functional project teams</strong><br>
-          Monitored delivery timelines and maintained alignment across stakeholders.
+      <li><strong>Coordinated cross-functional teams</strong><br>
+          Kept delivery on track by aligning developers, designers, PMs, and stakeholders.
       </li><br>
 
       <li><strong>Mentored QA engineers</strong><br>
-          Created 40+ educational videos explaining techniques, approaches, and tools.
+          Created 40+ educational videos covering tools, testing techniques, and practical workflows.
       </li>
     </ul>
     
     <h3><strong>Quality Assurance Engineer</strong> at FreshOffice</h3>
     <p><em>May 2014 – February 2016</em></p>
 
-     <p><strong>Achievements:</strong></p>
+    <p><strong>Achievements:</strong></p>
     <ul>
-      <li>Mastered essential knowledge and skills in QA, demonstrating a rapid and effective learning curve.</li>
-      <li>Worked closely with the team through every stage of development, contributing to successful delivery.</li>
-      <li>Assessed project quality and took the steps needed to maintain high standards while meeting project goals.</li>
-      <li>Improved QA processes by introducing changes that made workflows more efficient.</li>
+      <li><strong>Quickly built a solid foundation in QA</strong><br>
+          Picked up core testing skills fast and applied them effectively in daily work.
+      </li><br>
 
+      <li><strong>Worked closely with the team through all development stages</strong><br>
+          Helped ensure features were delivered on time and with the expected quality.
+      </li><br>
+
+      <li><strong>Evaluated product quality and maintained high standards</strong><br>
+          Identified issues early and made sure they were addressed before release.
+      </li><br>
+
+      <li><strong>Improved QA workflows</strong><br>
+          Suggested changes that made testing smoother and more efficient for the whole team.
+      </li>
     </ul>
   </div>
 </div>
