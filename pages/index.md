@@ -3,7 +3,6 @@ layout: null
 permalink: /
 ---
 
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -25,4 +24,3 @@ permalink: /
      <a href="{{ '/about' | relative_url }}">click here</a>.
   </p>
 </body>
-</html>
