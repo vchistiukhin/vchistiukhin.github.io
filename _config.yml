@@ -1,6 +1,7 @@
 ### Site Settings ###
 title               : ""
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+url                 : "https://yfqa.me"
 repository          : vchistiukhin/vchistiukhin.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 layouts_dir         : _themes/vchistiukhin/_layouts
@@ -14,7 +15,7 @@ sass:
 ### Plugins ###
 plugins:
   - jemoji
-
+  - jekyll-sitemap
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
