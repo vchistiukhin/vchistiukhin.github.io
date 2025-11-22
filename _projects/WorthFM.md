@@ -9,9 +9,6 @@ order: 4
 
 ![preview](/assets/img/worthfm.png)
 <p class="text-center">
-  {% include projects/badges.html %}
-</p>
-<p class="text-center">
   {% include projects/techs.html %}
 </p>
 

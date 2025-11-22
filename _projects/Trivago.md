@@ -9,9 +9,6 @@ order: 2
 
 ![preview](/assets/img/trivago.jpg)
 <p class="text-center">
-  {% include projects/badges.html %}
-</p>
-<p class="text-center">
   {% include projects/techs.html %}
 </p>
 

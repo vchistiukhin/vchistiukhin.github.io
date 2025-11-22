@@ -10,9 +10,6 @@ order: 5
 
 ![preview](/assets/img/advisorengine_full.webp)
 <p class="text-center">
-  {% include projects/badges.html %}
-</p>
-<p class="text-center">
   {% include projects/techs.html %}
 </p>
 

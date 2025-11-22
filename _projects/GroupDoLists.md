@@ -10,9 +10,6 @@ order: 3
 
 ![preview](/assets/img/gdl.png)
 <p class="text-center">
-  {% include projects/badges.html %}
-</p>
-<p class="text-center">
   {% include projects/techs.html %}
 </p>
 

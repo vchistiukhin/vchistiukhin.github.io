@@ -10,9 +10,6 @@ timeline: lcharge_timeline
 
 ![preview](/assets/img/l_charge.jpg)
 <p class="text-center">
-  {% include projects/badges.html %}
-</p>
-<p class="text-center">
   {% include projects/techs.html %}
 </p>
 

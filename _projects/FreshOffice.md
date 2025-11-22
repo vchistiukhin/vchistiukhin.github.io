@@ -10,9 +10,6 @@ timeline: fo_timeline
 
 ![preview](/assets/img/fo.jpeg)
 <p class="text-center">
-  {% include projects/badges.html %}
-</p>
-<p class="text-center">
   {% include projects/techs.html %}
 </p>
 
