@@ -1,0 +1,19 @@
+- name: Product & Testing Documentation
+  percentage: 95
+  color: primary
+
+- name: Quality Assurance Processes
+  percentage: 100
+  color: primary
+
+- name: Backend Testing
+  percentage: 95
+  color: primary 
+
+- name: Web Testing
+  percentage: 100
+  color: info
+
+- name: Mobile Testing
+  percentage: 90
+  color: info

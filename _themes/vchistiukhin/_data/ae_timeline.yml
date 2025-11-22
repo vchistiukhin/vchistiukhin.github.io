@@ -1,0 +1,36 @@
+- title: Joining AdvisorEngine
+  from: Mar. 2016
+  to: May 2017
+  description: I joined the AdvisorEngine development team in March 2016 and started with contributing to the testing documentation, as the existing coverage was insufficient for comprehensive testing. To enhance our testing process, I completely revised the approach to testing documentation on the project. This involved rewriting every test case for improved readability and implementing TestRail as the standard tool within the company. <br>
+               <br>All these efforts helped expand the test scope from 200 to almost 700 test cases within a few months. Simultaneously, due to the enhanced readability, well-planned decomposing, and restructured test plans, the median regression time decreased by 10-25%. This better coverage significantly reduced the number of  defects encountered after releasing into production.
+
+- title: Focusing on Product Documentation
+  from: May 2017
+  to: Apr. 2018
+  description: Starting in May 2017, I shifted my focus to working with product documentation.<br> By that time, we already had comprehensive testing documentation and well-tuned processes. This allowed me to concentrate on upcoming features.
+               <br><br>A critical aspect of this period was AdvisorEngine's rapid growth in startup mode, making it challenging to keep up with changes. The information from product owners often only covered high-level use cases, leaving gaps that could lead to feature-related issues.
+               <br><br>To address this, I began developing in product requirements before the development stage started. I concentrated on gathering as much information as possible, preparing product specifications for discussion, and contributing with my UI/UX expertise. 
+               <br><br>With well-prepared product documentation, we successfully reduced the number of feature-related issues. Both the quality assurance and development teams benefitted, as we no longer wasted time fixing problems that could have been prevented. Later, we implemented this useful practice on the company level for our quality assurance engineers form the other projects.                
+
+- title: Switching to Backend Testing
+  from: Apr. 2018
+  to: May 2019
+  description: As AdvisorEngine continued to grow, we encountered numerous issues related to the backend and data. These challenges were largely due to the involvement of many third-party integrations serving as data sources. To protect PII, we used isolated and independently obfuscated data sources. This, combined with complex APIs, made development and testing extremely challenging. <br><br>
+               In April 2018, I shifted my focus to testing the backend. Along with the backend team, we examined the issues related to integrations with third-party services. As a result, we merged my product expertise with their technical skills to mock all possible use cases and set up mock servers for optimal behavior emulation.<br><br>
+               To provide more tools for our team-members, I prepared many collections of requests for Postman. These collections assisted my QA colleagues in testing the backend of the project and its integrations with third-party data sources.<br><br>
+               One particular data source was problematic in terms of performance. Having completed a course in performance testing essentials, I was asked to make a performance test for the provider. In collaboration with the DevOps team, we set up the infrastructure, ran tests, and shared the results with the data source provider. After tuning adjustments were made on the provider's side, we achieved satisfactory results.
+
+- title: Project Review  
+  description: |-
+               In May 2019, I finished working at AdvisorEngine to join <a href="/projects/groupdolists" class="grey-link">GroupDoLists</a>, as the latter required extra quality assurance expertise. Less than a year later, AdvisorEngine was acquired by Franklin Templeton, a global investment management organization.<br><br>
+               Throughout these years, I was driven by a passion for knowledge and managed to evolve from an engineer who knows the essentials, to a team member capable of handling any aspect of the project. I mastered a wide range of skills, worked hard, and ultimately left the project in a state that any engineer would be proud of.<br><br>
+
+               What I’ve learned at AdvisorEngine:<br>
+                <ul>
+                  <li>Working on product documentation with attention is a crucial part of the development process.</li>
+                  <li>Conducting in-depth backend testing using a comprehensive toolset helps to uncover many issues.</li>
+                  <li>Sharing knowledge across the team also promotes the growth of the person sharing.</li>
+                  <li>Engaging in the entire development process as an integral team member boosts performance.</li>
+                  <li>Implementing best practices in the quality assurance process is always rewarding.</li>
+                  <li>Taking responsibility and making the right decisions is the key to success.</li>
+                </ul>

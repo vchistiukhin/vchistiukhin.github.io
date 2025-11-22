@@ -1,0 +1,30 @@
+- title: Joining L-Charge
+  from: Jan. 2022
+  to: Apr. 2022
+  description: In January 2022, we began preparations for launching the development process. I was responsible for writing the product documentation, and communicating with stakeholders to compile the initial requirements. Through tight collaboration, we created the project roadmap, detailed specifications for core features, and started development with everything we needed for a smooth start. <br><br>
+               This approach helped us to launch development seamlessly and follow the planned schedule.
+
+- title: Developing 1st Stage
+  from: Apr. 2022
+  to: Dec. 2022
+  description: During the first development stage, we encountered a lot of interesting tasks. Some of them were completely new experiences for our team, such as implementing navigation using Google/Apple Maps and integrating Stripe as a payment provider. Drawing on our previous experience, we implemented advanced real-time synchronization using 'silent pushes,' which provided seamless synchronization with no extra load on the server side. My role involved continuing to develop product and testing documentation; evaluating the quality of the project; testing backend, multiple web applications and iOS client.<br><br>
+               Since we had comprehensive product and testing documentation, the number of issues was quite low, enabling us to implement many advanced features at this stage. We were on the same page with the L-Charge product team, and we were all driven by the desire to create a cool-looking, modern and functional product.
+
+- title: Developing 2nd Stage
+  from: Jan. 2023
+  to: Feb. 2024
+  description: At the begining of 2023, we began developing a new software for a stand-alone charging station, the most advanced hardware solution designed and produced by L-Charge. During this stage, we implemented a web client and a brand-new backend, enabling any EV owner to charge their vehicle without needing to download a native app. The clients had access to a fully operable, responsive web application, through which they could complete all stages of making an order, tracking the charging status, seeing estimated time to completion, paying the bill, and many other features. We collaborated with the L-Charge hardware development team, which was instrumental in this complex process.<br><br>
+               We successfully completed the second development stage by February 2024, and by that time, all necessary applications and services were developed, supporting L-Charge in expanding their business.
+
+
+- title: Project Review
+  description: |-
+               Through close collaboration with the L-Charge product and development teams, we managed to build modern, reliable, and advanced applications and services. Our team of amazing engineers, designers, and product managers did everything as expected, planned, designed, discussed, and approved. Working on this project was the best experience I've ever had.<br><br>
+               What I’ve learned at L-Charge:<br>
+                <ul>
+                  <li>Designing proper documentation helps to avoid many issues from the very beginning.</li>
+                  <li>Collaborating with product owners contributes to the project's quality in the long run.</li>
+                  <li>Excitement about a properly designed product drives and motivates the whole team.</li>
+                  <li>Developing a properly initiated project is much more easier and cheaper in terms of costs.</li>
+                  <li>Having experienced and involved colleagues is the best thing that could happen to you.</li>
+                </ul>   

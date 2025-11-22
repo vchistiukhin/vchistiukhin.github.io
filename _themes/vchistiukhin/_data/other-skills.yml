@@ -1,0 +1,19 @@
+- name: Teamwork
+  percentage: 90
+  color: primary
+
+- name: Time Management
+  percentage: 100
+  color: primary
+
+- name: Risk Management
+  percentage: 95
+  color: info
+
+- name: Product-Centric Mindset
+  percentage: 100
+  color: info
+
+- name: Adaptability
+  percentage: 100
+  color: info

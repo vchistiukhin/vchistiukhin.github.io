@@ -1,0 +1,35 @@
+.project.card {
+  border-radius: $rounded-borders;
+  text-decoration: none !important;
+  margin: 10px auto;
+
+  .card-img-top {
+    border-radius: $rounded-borders $rounded-borders 0 0;
+  }
+
+  transition: transform 400ms;
+
+  &:hover:not(.post) {
+    transform: translateY(-8px);
+    box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+  }
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.project-card {
+  flex: 1 1 calc(50% - 20px); /* Adjust based on gap to ensure two cards per row */
+  /* Add other styling for your cards here (padding, border, etc.) */
+}
+
+/* Responsive adjustment for screens wider than 768px */
+@media (min-width: 768px) {
+  .project-card {
+    /* Adjust so that only two items fit within the container's width */
+    flex: 1 1 calc(50% - 20px); /* Example for two cards, adjust gap as necessary */
+  }
+}

@@ -1,0 +1,5 @@
+{% if page.skills %}
+  {% for skill in page.skills %}
+    <span class="badge badge-pill text-primary border border-primary ml-1">{{ skill }}</span>
+  {% endfor %}
+{% endif %}
