@@ -19,9 +19,33 @@ Specialties: test strategy, process building, QA leadership, AI/LLM tooling for 
     <hr>
     <p>I’m a Senior QA Engineer with 10+ years of experience improving product quality across web, mobile and backend platforms. I work end-to-end - from refining requirements and designing test strategy to coordinating regressions and signing off releases.</p>
     
-    <p>Over my career I’ve delivered QA for consumer apps (1.2M+ MAU) and complex B2B SaaS platforms, ensuring predictable, low-risk releases. I focus on preventing issues early, aligning testing with business goals, and giving teams the clarity and confidence they need to ship.</p>
+    <p>Over my career I’ve delivered QA for consumer apps (1.2M+ MAU), ensuring predictable, low-risk releases and maintaining zero high-severity production issues for 6+ months on a high-traffic product. I focus on preventing issues early, aligning testing with business goals, and giving teams the clarity and confidence they need to ship.</p>
     <p>I’m comfortable building QA processes from scratch, mentoring engineers, and integrating AI/LLM-based tools to speed up analysis, documentation and test design. I thrive in environments where quality matters, requirements evolve, and a reliable product is key to success.</p>
     <p>Based in Oviedo, Spain (remote global). Fluent in English, Serbo-Croatian, Russian. Intermediate in Spanish.</p>
+  </div>
+</div>
+
+<div class="card mb-4">
+  <div class="card-body">
+    <h2>Impact Highlights</h2>
+    <hr>
+
+    <ul>
+      <li>Improved delivery stability: kept high-severity production issues at zero for 6+ months on a 1.2M+ MAU product.<br>
+      </li>
+
+      <li>Reduced QA effort and rework by introducing clearer testing workflows and consistent practices across teams.<br>
+      </li>
+
+      <li>Built QA processes from scratch for multiple products, helping teams ship on predictable schedules with fewer surprises.<br>
+      </li>
+
+      <li>Strengthened requirement quality and reduced ambiguity through structured documentation and early analysis.<br>
+      </li>
+
+      <li>Mentored QA engineers and produced 40+ practical training videos that improved onboarding and team efficiency.<br>
+      </li>
+    </ul>
   </div>
 </div>
 
@@ -32,7 +56,7 @@ Specialties: test strategy, process building, QA leadership, AI/LLM tooling for 
     
     <h3><strong>Senior Quality Assurance Engineer</strong> at Social Discovery Group</h3>
     <p><em>February 2024 – Present</em><br>
-    <strong>Project:</strong> Under NDA (HK)</p>
+    <strong>Project:</strong> Global Social App (HK)</p>
     
     <p><strong>Achievements:</strong></p>
     <ul>
@@ -119,48 +143,32 @@ Specialties: test strategy, process building, QA leadership, AI/LLM tooling for 
     <table class="table table-bordered">
       <tbody>
         <tr>
-          <td><strong>Bug Tracking</strong></td>
-          <td>Jira</td>
+          <td><strong>QA Foundations</strong></td>
+          <td>Test strategy · Test planning · Regression coordination · Requirements analysis · Exploratory testing</td>
         </tr>
         <tr>
-          <td><strong>Documentation</strong></td>
-          <td>Confluence, Notion</td>
-        </tr>
-        <tr>
-          <td><strong>Test Management</strong></td>
-          <td>TestRail, Qase, Allure TestOps</td>
-        </tr>
-        <tr>
-          <td><strong>Databases</strong></td>
-          <td>MySQL, PostgreSQL, GraphQL</td>
-        </tr>
-        <tr>
-          <td><strong>API Testing</strong></td>
-          <td>Postman, Swagger</td>
-        </tr>
-        <tr>
-          <td><strong>Network & Sniffers</strong></td>
-          <td>Proxyman, Fiddler</td>
+          <td><strong>Backend Testing</strong></td>
+          <td>Postman · Swagger · MySQL · PostgreSQL · GraphQL</td>
         </tr>
         <tr>
           <td><strong>Mobile Testing</strong></td>
-          <td>Android Studio, XCode, TestFlight</td>
+          <td>Android Studio · Xcode · TestFlight · Proxyman · Fiddler</td>
         </tr>
         <tr>
           <td><strong>Monitoring</strong></td>
-          <td>NewRelic, Papertrail, Sentry, Grafana, DataDog</td>
-        </tr>
-        <tr>
-          <td><strong>Version Control</strong></td>
-          <td>Bitbucket, Git</td>
+          <td>NewRelic · Sentry · DataDog · Grafana · Papertrail</td>
         </tr>
         <tr>
           <td><strong>Infrastructure</strong></td>
-          <td>Docker, Kubernetes, RabbitMQ</td>
+          <td>Docker · Kubernetes · RabbitMQ · Git · Bitbucketr</td>
         </tr>
         <tr>
-          <td><strong>AI Tools</strong></td>
-          <td>GitHub Copilot, GPTs, LLMs</td>
+          <td><strong>Documentation</strong></td>
+          <td>Jira · Confluence · Notion · TestRail · Qase · Allure TestOps</td>
+        </tr>
+        <tr>
+          <td><strong>AI/LLM Tooling</strong></td>
+          <td>GitHub Copilot · GPT-based tools · LLM-assisted analysis & documentation</td>
         </tr>
       </tbody>
     </table>
