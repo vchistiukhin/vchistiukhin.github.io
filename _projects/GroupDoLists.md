@@ -1,7 +1,6 @@
 ---
 name: GroupDoLists
-tools: [Web, iOS, Android, Backend, UI/UX, Requirements, Testing, Twilio]
-skills: [Backend Testing, iOS & Android Testing, Web Testing, API Testing, QA Processes, Testing & Product Documentation]
+tools: [Web, iOS, Android, Backend, Twilio]
 techs: [Jira, Confluence, Qase, Fiddler, Postman, xCode, Android Studio, Docker, k8s, SQL, NewRelic, Sentry, Papertrail]
 image: /assets/img/gdl.png
 description: Groupdolists is an incident response platform designed to help organizations respond to crises. The platform provides a centralized, real-time environment for teams to manage and coordinate their response to any incident, ensuring that all necessary actions are taken promptly and efficiently.

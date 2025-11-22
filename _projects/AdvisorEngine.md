@@ -1,7 +1,6 @@
 ---
 name: AdvisorEngine
-tools: [Web, Backend, UI/UX, Requirements, Testing, Fintech, Integrations]
-skills: [Backend Testing, Web Testing, API Testing, Quality Assurance Processes, Testing & Product Documentation]
+tools: [Web, Backend, UI/UX, Fintech]
 techs: [Jira, Confluence, Fiddler, Postman, SQL, TestRail, GraphQL, NewRelic, Papertrail]
 image: /assets/img/advisorengine_full.webp
 description: AdvisorEngine powers financial advice that is personal, scientific, and beautiful. The company’s CRM and portfolio management technology is trusted by over 1,200 wealth management firms in the United States that manage $600 billion of assets. With its focus on operational excellence, AdvisorEngine is the technology behind your value proposition.

@@ -1,7 +1,6 @@
 ---
 name: WorthFM
-tools: [Web, Backend, UI/UX, Testing, Fintech]
-skills: [Quality Assurance Processes, Product Documentation, Testing Documentation]
+tools: [Web, Backend, UI/UX, Fintech]
 techs: [Confluence, TestRail, Miro]
 image: /assets/img/worthfm.png
 description: WorthFM is a revolutionary savings and investment platform designed specifically for women. WorthFM offers a unique blend of financial tools, including an Emergency Savings Account for unexpected expenses, an Investment Account to help you reach your financial goals for seamless consolidation of your Traditional or Roth IRA.

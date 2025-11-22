@@ -24,7 +24,3 @@ Let's stay in touch - connect with me on <a href="https://www.linkedin.com/in/vl
 <div class="row">
 {% include about/timeline.html %}
 </div>
-
-<div class="buttons-container text-center">
-  {% include elements/button.html link="/projects" text="Projects <i class='fas fa-arrow-right'></i> " %}
-</div>

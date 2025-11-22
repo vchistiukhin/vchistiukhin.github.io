@@ -90,3 +90,144 @@
   border-color: #0077b5;
   color: #fff;
 }
+.blog-post {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 50px;
+}
+
+.blog-post:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+a.btn.btn-primary {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 6px 16px;
+  transition: all 0.3s ease;
+}
+
+a.btn.btn-primary:hover {
+  background-color: #0077b5;
+  color: white;
+  border-color: #0077b5;
+}
+
+/* --- Blog post title links --- */
+.blog-post h2 > a {
+  color: grey !important;            /* как .grey-link */
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+.blog-post h2 > a:hover {
+  color: #0077b5 !important;         /* LinkedIn blue hover */
+}
+
+/* --- Timeline item title links --- */
+.timeline-item h2 > a {
+  color: grey !important;            /* серый как .grey-link */
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+.timeline-item h2 > a:hover {
+  color: #0077b5 !important;         /* LinkedIn blue при наведении */
+}
+
+.blog-post .post-date {
+  color: #9aa0a6;
+  font-size: 0.95em;
+}
+
+/* --- Blog post card style (как Projects) --- */
+.blog-post {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  margin-bottom: 40px;
+  transition: all 0.3s ease;
+}
+
+.blog-post:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+
+.blog-post h2 > a {
+  color: grey !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+.blog-post h2 > a:hover {
+  color: #0077b5 !important; /* LinkedIn blue hover */
+}
+
+.blog-post .post-date {
+  color: #9aa0a6;
+  font-size: 0.95em;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  margin-bottom: 15px;
+}
+
+/* --- Blog single post style (единый с карточками) --- */
+.post-content {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  transition: all 0.3s ease;
+}
+
+.post-content:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.post-content h1, 
+.post-content h2, 
+.post-content h3 {
+  color: #333333;
+}
+
+.post-content p {
+  line-height: 1.7;
+  margin-bottom: 1em;
+}
+
+.post-content ul {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.post-content li {
+  margin-bottom: 0.5em;
+}
+
+/* --- Blog single post container (markdown-body wrapper) --- */
+.markdown-body {
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  transition: all 0.3s ease;
+}
+
+.markdown-body:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}

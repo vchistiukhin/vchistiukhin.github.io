@@ -27,17 +27,18 @@ layout: page
 
 </p>
 
-{{ content }}
+<div class="post-wrapper mt-5 mb-5 p-4 rounded shadow-sm">
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-{% if page.comments %}
-<div class="pt-5">
-  {% include blog/disqus.html %}
+  {% if page.comments %}
+  <div class="pt-5">
+    {% include blog/disqus.html %}
+  </div>
+  {% endif %}
 </div>
-{% endif %}
 
-<p class="text-center">
-  {% include elements/button.html link="/blog" text="Back to Blog" %}
-</p>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C42MX10CYP"></script>
@@ -45,6 +46,5 @@ layout: page
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-C42MX10CYP');
 </script>

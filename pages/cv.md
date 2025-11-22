@@ -9,7 +9,7 @@ weight: 4
 <h3>Senior Quality Assurance Engineer</h3>
 Residence: Spain  
 
-[Email](mailto:vchistiukhin@gmail.com) • [LinkedIn](https://www.linkedin.com/in/vladimir-chistiukhin/)  
+[Email](mailto:vc@yfqa.me) • [LinkedIn](https://www.linkedin.com/in/vladimir-chistiukhin/)  
 
 ---
 
@@ -142,9 +142,7 @@ Residence: Spain
 
 
 <div class="text-center">
-{% include elements/button.html link="/timeline" text="<i class='fas fa-arrow-left'></i> Timeline" %}
 {% include elements/download-button.html download='content/Vladimir_Chistiukhin_SQA_CV.pdf' text="PDF <i class='fas fa-download'></i>" %}
-{% include elements/button.html link="/about" text="About Me <i class='fas fa-arrow-right'></i>" %}
 </div>
 
 

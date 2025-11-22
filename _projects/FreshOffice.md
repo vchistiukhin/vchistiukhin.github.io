@@ -1,7 +1,6 @@
 ---
 name: FreshOffice
-tools: [Web, Backend, iOS, Testing, Integrations, VoIP]
-skills: [Backend Testing, Web Testing, Quality Assurance Processes]
+tools: [Web, Backend, iOS, Integrations]
 techs: [Jira, Confluence, Postman, SQL]
 image: /assets/img/fo.jpeg
 description: FreshOffice provides cloud based CRM software for enterprises. Features include tasks scheduling and management, an inbuilt communication tool for sales reps, pipeline management, and project management. Allows users to manage, plan, and monitor the work of employees.

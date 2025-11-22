@@ -1,7 +1,6 @@
 ---
 name: Trivago
 tools: [Web, Backend, UI/UX, Testing]
-skills: [Backend Testing, Web Testing, Quality Assurance Processes, Testing Documentation]
 techs: [Jira, Confluence, Qase, Fiddler, Postman, Sentry, Papertrail]
 image: /assets/img/trivago.jpg
 description: Trivago is a well-known technology company specializing in internet-related services and products in the hotel, lodging and metasearch fields. Trivago Career is a recruitment website with an innovative automated video interviewing service.
