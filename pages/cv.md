@@ -6,8 +6,10 @@ weight: 4
 ---
 
 # Vladimir Chistiukhin  
-<h3>Senior Quality Assurance Engineer</h3>
-Residence: Spain  
+<h4>Senior QA Engineer (Web, Mobile, Backend) · 10+ years experience</h4>
+Specialties: test strategy, process building, regression management, QA leadership, AI/LLM tooling for QA<br>
+Languages: English - C1 · Serbo-Croatian - C1 · Spanish - A2 · Russian - native<br>
+Residence: Spain
 
 [Email](mailto:vc@yfqa.me) • [LinkedIn](https://www.linkedin.com/in/vladimir-chistiukhin/)  
 
@@ -17,10 +19,10 @@ Residence: Spain
   <div class="card-body">
     <h2>About Me</h2>
     <hr>
-    <p>I’m a Software QA Engineer who’s passionate about making sure every product we release is the best it can be. I’ve worked on improving QA processes across a variety of projects and enjoy collaborating with my team to build reliable, high-quality applications. My experience covers testing backend systems, as well as iOS, Android, and web apps.</p>
+    <p>I’m a Senior QA Engineer with 10+ years of experience improving product quality across web, mobile and backend platforms. I work end-to-end - from refining requirements and designing test strategy to coordinating regressions and signing off releases.</p>
     
-    <p>I’m an active part of the team from day one, taking part in everything from planning to release.<br>
-    Along the way, I draw on my language skills — English (C1), Serbo-Croatian (C1), and Spanish (A2) — to communicate and collaborate effectively across diverse teams and projects. My native language is Russian.</p>
+    <p>Over my career I’ve delivered QA for consumer apps (1M+ MAU) and complex B2B SaaS platforms, ensuring predictable, low-risk releases. I focus on preventing issues early, aligning testing with business goals, and giving teams the clarity and confidence they need to ship.</p>
+    <p>I’m comfortable building QA processes from scratch, mentoring engineers, and integrating AI/LLM-based tools to speed up analysis, documentation and test design. I thrive in environments where quality matters, requirements evolve, and a reliable product is key to success.</p>
   </div>
 </div>
 
@@ -35,11 +37,21 @@ Residence: Spain
     
     <p><strong>Achievements:</strong></p>
     <ul>
-      <li><strong>Helped ensure the quality of a product serving over 1.2 million monthly active users</strong><br>
-    Took care of the project's quality mitigating risks associated with high user volume and potential costly issues.</li><br>
-      <li><strong>Worked closely with cross-functional teams, bridging the gap between technical and business stakeholders</strong><br>Took my place in the middle of between tech and business teams to help both collaborate the best possible way.</li><br>
-      <li><strong>Supported quality at every stage of the project by sharing expertise and guiding QA processes</strong><br>Shared my experience and knowledge with fellow colleagues to contribute in the quality of the entire project.</li><br>
-      <li><strong>Coordinated team efforts from grooming to release, suggesting solutions that balanced business goals with team capabilities</strong><br>From grooming to release - I was a part of the whole release process. I also made proposals for optimal solutions balancing business requirements and team capabilities based on deep project understanding from both sides.</li><br>
+      <li><strong>Ensured quality for a product with 1.2M+ monthly active users</strong><br>
+          Mitigated risks associated with high traffic and potential high-impact issues.
+      </li><br>
+
+      <li><strong>Bridged communication between technical and business teams</strong><br>
+          Helped both sides align expectations, make realistic decisions, and collaborate efficiently.
+      </li><br>
+
+      <li><strong>Supported quality throughout the entire delivery lifecycle</strong><br>
+          Provided QA expertise during refinement, development, testing, and release.
+      </li><br>
+
+      <li><strong>Coordinated team efforts from grooming to release</strong><br>
+          Proposed balanced solutions that met business goals while considering real team capacity.
+      </li>
     </ul>
     
     <h3><strong>Senior Quality Assurance Engineer</strong> at 4XXI</h3>
@@ -49,18 +61,32 @@ Residence: Spain
     <p><strong>Achievements:</strong></p>
     <ul>
       <li><strong>Built QA processes from the ground up</strong><br>
-      Properly initiated testing processes helped our clients to reduce the costs of development and product support</li><br>
-      <li><strong>Researched and implemented the best quality assurance practices.
-      </strong><br>These practices on the company level helped us to boost efficiency and raise the quality standards.</li><br>
-      <li><strong>Created comprehensive testing documentation</strong><br>
-      Detailed documentation helped to conduct QA activities in the most efficient way, satisfying customers' expectations.</li><br>
-      <li><strong>Wrote detailed product documentation</strong><br>
-      It helped to build high-quality products, as so project goals and scenarios were well-defined before development began.</li><br>
-      <li><strong>Suggested UI/UX improvements</strong><br>
-      These adjustments were helpful in developing easy-to-understand, user-friendly, and reliable products and services.</li><br>
-      <li><strong>Coordinated project teams to strengthen collaboration</strong><br>
-      I took care of project delivery timelines, and tracked the current status of development down.</li><br>
-      <li><strong>Mentored fellow QA engineers</strong><br>In my career, I’ve made over 40 educational videos explaining different techniques, approaches, and useful tools.</li>
+          Established testing workflows that reduced development and support costs for clients.
+      </li><br>
+
+      <li><strong>Implemented company-wide QA best practices</strong><br>
+          Standardized approaches that improved team efficiency and product quality.
+      </li><br>
+
+      <li><strong>Created comprehensive test documentation</strong><br>
+          Enabled predictable and transparent QA activities through structured plans and suites.
+      </li><br>
+
+      <li><strong>Produced detailed product documentation</strong><br>
+          Clarified requirements early, reducing ambiguity and preventing rework.
+      </li><br>
+
+      <li><strong>Provided UI/UX improvement suggestions</strong><br>
+          Contributed to more intuitive, user-friendly product experiences.
+      </li><br>
+
+      <li><strong>Coordinated cross-functional project teams</strong><br>
+          Monitored delivery timelines and maintained alignment across stakeholders.
+      </li><br>
+
+      <li><strong>Mentored QA engineers</strong><br>
+          Created 40+ educational videos explaining techniques, approaches, and tools.
+      </li>
     </ul>
     
     <h3><strong>Quality Assurance Engineer</strong> at FreshOffice</h3>
@@ -68,10 +94,10 @@ Residence: Spain
 
      <p><strong>Achievements:</strong></p>
     <ul>
-      <li>Mastered essential knowledge and skills in QA, demonstrating a rapid and effective learning curve</li>
-      <li>Worked closely with the team through every stage of development, contributing to successful delivery</li>
-      <li>Assessed project quality and took the steps needed to maintain high standards while meeting project goals</li>
-      <li>Improved QA processes by introducing changes that made workflows more efficient and effective</li>
+      <li>Mastered essential knowledge and skills in QA, demonstrating a rapid and effective learning curve.</li>
+      <li>Worked closely with the team through every stage of development, contributing to successful delivery.</li>
+      <li>Assessed project quality and took the steps needed to maintain high standards while meeting project goals.</li>
+      <li>Improved QA processes by introducing changes that made workflows more efficient.</li>
 
     </ul>
   </div>
@@ -79,7 +105,7 @@ Residence: Spain
 
 <div class="card mb-4">
   <div class="card-body">
-    <h2>Worked With</h2>
+    <h2>Skills & Tools</h2>
     
     <table class="table table-bordered">
       <tbody>
@@ -116,20 +142,12 @@ Residence: Spain
           <td>NewRelic, Papertrail, Sentry, Grafana, DataDog</td>
         </tr>
         <tr>
-          <td><strong>Automation</strong></td>
-          <td>Codeception</td>
-        </tr>
-        <tr>
           <td><strong>Version Control</strong></td>
           <td>Bitbucket, Git</td>
         </tr>
         <tr>
           <td><strong>Infrastructure</strong></td>
           <td>Docker, Kubernetes, RabbitMQ</td>
-        </tr>
-        <tr>
-          <td><strong>Operating Systems</strong></td>
-          <td>iOS, Android, macOS, Windows, Ubuntu</td>
         </tr>
         <tr>
           <td><strong>AI Tools</strong></td>
