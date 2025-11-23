@@ -5,6 +5,14 @@ permalink: /cv
 weight: 4
 ---
 
+{% seo %}
+<meta name="description" content="Senior QA Engineer with 10+ years of experience in web, mobile, and backend testing. Based in Spain, remote-first.">
+<meta property="og:title" content="Vladimir Chistiukhin — Senior QA Engineer | CV">
+<meta property="og:description" content="Experienced QA engineer focused on high-load apps, process building, and AI-assisted QA workflows.">
+<meta property="og:image" content="https://yfqa.me/assets/img/avatar_low.jpg">
+<meta property="og:url" content="https://yfqa.me/cv">
+<meta name="twitter:card" content="summary_large_image">
+
 # Vladimir Chistiukhin  
 <h4>Senior QA Engineer (Web, Mobile, Backend) · 10+ years experience</h4>
 Specialties: test strategy, process building, QA leadership, AI/LLM tooling for QA<br>
